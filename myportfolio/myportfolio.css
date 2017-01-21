@@ -105,9 +105,6 @@ h2 {
   color: #ffffff;
 }
 
-h2 {
-	text-align: center;
-}
 
 blockquote{
   display:block;
@@ -243,4 +240,7 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: justify;
+}
+a:link {
+	color: orange;
 }
