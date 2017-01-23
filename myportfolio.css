@@ -1,6 +1,8 @@
- .navbar {
-  		background-color: #CC0000;
-  	}
+/* Navbar Start */
+
+.navbar {
+ 		background-color: #CC0000;
+}
  .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
  	color: #ffffff;
  	font-size: 24px;
@@ -30,6 +32,14 @@
     color: #fff;
     background-color: #000000;
 }
+
+/* Navbar End */
+
+
+hr {
+  background-color: red; margin-top: 0; border-bottom: 11px solid red; border-top: 1px solid red;
+}
+
 
 .newsletter {
   background-color: green;
@@ -65,8 +75,8 @@ p {
 	font-weight: bold;
 	position: relative;
 	margin: -20px -50px;
-	top:50%; 
-  left:50%;
+	top: 50%; 
+  left: 50%;
 }
 
 .textalign {
@@ -80,9 +90,10 @@ h2 {
 #portfolio {
   background-color: #CBE32D;
   width: 100%;
-  height: 600px;
+  height: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-top: -20px;
 }
 
 #services {
@@ -90,12 +101,32 @@ h2 {
   width: 100%;
   height: 350px;
   padding-top: 30px;
+  margin-top: -20px;
+  color: #ffffff;
 }
 
 #blog {
   background-color: lightblue;
   width: 100%;
   height: 600px;
+  margin-top: -20px;
+}
+
+.blogpostleft {
+  width: 530px; height: 185px; background-color: #ffffff; color: #000000; float: left; margin: 20px; padding: 20px;
+}
+
+
+.blogpostright {
+  width: 530px; height: 185px; background-color: #ffffff; color: #000000; float: left; margin: 40px 20px 20px 20px; padding: 20px;
+}
+
+.testimonialsection {
+  width: 100%; height: 650px; background-color: #d0d0d0; margin-top: -20px;
+}
+
+.testimonial {
+  color: #ffffff; width: 33%; height: auto; margin: 2px; padding: 20px; float: left; border-radius: 20px;
 }
 
 #hiremeadvert {
@@ -105,6 +136,8 @@ h2 {
   color: #ffffff;
 }
 
+
+/* Blockquote End */
 
 blockquote{
   display:block;
@@ -166,11 +199,58 @@ blockquote em{
   font-style: italic;
 }
 
-.about {
+/* Blockquote End */
+
+
+/*.about {
 	h2 {
 		font-size: 3em;
 		color: orange;
 		letter-spacing: 2em;
+}*/
+
+.about {
+  background: #005A31; color: white; font-size: 20px; height: 300px; padding-top: 20px; margin-top: -20px;
+}
+
+.hireme {
+  background-color: #B4151B; height: 355px; width: 100%; color: #ffffff; margin-top: -20px;
+}
+
+button {
+  height: 60px;
+  width: 150px;
+  background-color: #ffffff;
+  border-color: #000000;
+  border-radius: 10px;
+  color: #000000;
+  /*font-size: 14px;*/
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  margin: -20px -50px;
+  top:50%; 
+  left:50%;
+}
+
+.footercontainer {
+  background-color: #3B3B3B /*#2D2C2A*/; color: #ffffff; height: 350px; margin-top: -20px;
+}
+
+.footerwidget {
+  width: 25%; height: 100%; float: left; text-align: justify;
+}
+
+.footerul {
+  list-style: none; padding: 0; margin: 0;
+}
+
+.socialconnect {
+  background-color: #292929 /*#2D2C2A*/; color: #ffffff; height: 100px; text-align: center;
+}
+
+.socialicons {
+  margin-top: 10px; margin-right: 20px;
 }
 
 .linered {
@@ -179,58 +259,11 @@ blockquote em{
 	margin-top: -5px;
 	border-bottom: 5px solid red;
 }
-.circlecenteredred {
-	border-radius: 50%;
-	width: 50px;
-	height: 50px; 
-	background-color: red;
-	margin: auto;
-}
-.linegray {
-	background-color: gray;
-	height: 5px;
-	margin-top: -10px;
-	border-bottom: 5px solid gray;
-}
-.circlecenteredgray {
-	border-radius: 50%;
-	width: 50px;
-	height: 50px; 
-	background-color: gray;
-	margin: auto;
-	margin-top: -35px;
-}
-.linewhite {
-	background-color: white;
-	height: 5px;
-	margin-top: -10px;
-	border-bottom: 5px solid white;
-}
-.circlecenteredwhite {
-	border-radius: 50%;
-	width: 50px;
-	height: 50px; 
-	background-color: white;
-	margin: auto;
-	margin-top: -35px;
-}
+
 .pwhite {
 	color: #ffffff;
 }
-.pred {
-	border-top: 5px solid red;
-}
-.divtop {
-	margin-top: -40px;
-}
-.blk1 {
-	background-color: #000000;
-	margin-bottom: -16px;
-}
-.wht1 {
-	background-color: #ff0000;
-	margin-bottom: -16px;
-}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -241,4 +274,3 @@ p {
 	margin-right: auto;
 	text-align: justify;
 }
-
