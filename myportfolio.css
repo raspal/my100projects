@@ -44,7 +44,7 @@ hr {
 .newsletter {
   background-color: green;
 	/*border-color: #000000;*/
-	border: 1px solid #000000;
+	/*border: 1px solid #000000;*/
 	border-radius: 20px;
 	/*color: white;*/
 	font-size: 18px;
@@ -56,6 +56,14 @@ hr {
   margin-bottom: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.newslettercontainer {
+  background-color: #F3FAB6; width: 100%; height: auto; padding: 10px;
+}
+
+.bookimage {
+  float: left; padding-top: 90px; padding-left: 60px;
 }
 
 p {
@@ -99,7 +107,7 @@ h2 {
 #services {
   background-color: #A8CD1B;
   width: 100%;
-  height: 350px;
+  height: 420px;
   padding-top: 30px;
   margin-top: -20px;
   color: #ffffff;
@@ -108,17 +116,17 @@ h2 {
 #blog {
   background-color: lightblue;
   width: 100%;
-  height: 600px;
+  height: 670px;
   margin-top: -20px;
 }
 
 .blogpostleft {
-  width: 530px; height: 185px; background-color: #ffffff; color: #000000; float: left; margin: 20px; padding: 20px;
+  width: 530px; height: 220px; background-color: #ffffff; color: #000000; float: left; margin: 20px; padding: 20px;
 }
 
 
 .blogpostright {
-  width: 530px; height: 185px; background-color: #ffffff; color: #000000; float: left; margin: 40px 20px 20px 20px; padding: 20px;
+  width: 530px; height: 220px; background-color: #ffffff; color: #000000; float: left; margin: 40px 20px 20px 20px; padding: 20px;
 }
 
 .testimonialsection {
@@ -211,6 +219,10 @@ blockquote em{
 
 .about {
   background: #005A31; color: white; font-size: 20px; height: 300px; padding-top: 20px; margin-top: -20px;
+}
+
+.aboutpara {
+  padding-top: 20px; padding-bottom: 20px; margin-left: auto; margin-right: auto;
 }
 
 .hireme {
