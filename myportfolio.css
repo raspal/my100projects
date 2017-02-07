@@ -1,32 +1,32 @@
 /* Navbar Start */
 
 .navbar {
- 		background-color: #CC0000;
+    background-color: #CC0000;
 }
  .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
- 	color: #ffffff;
- 	font-size: 24px;
+  color: #ffffff;
+  font-size: 24px;
  }
  .navbar-default .navbar-nav>li>a:hover {
-	background-color: black;
-	color: #ffffff;
+  background-color: black;
+  color: #ffffff;
  }
   .navbar-default .navbar-brand>a {
-	background-color: #CC0000;
-	color: #ffffff;
+  background-color: #CC0000;
+  color: #ffffff;
   }
   .dropdown-menu {
-  	font-size: 24px;
-  	background-color: red;
-  	color: #ffffff;
+    font-size: 24px;
+    background-color: red;
+    color: #ffffff;
   }
   .dropdown-menu>li>a {
-  	background-color: #000000;
-  	color: #fff;
+    background-color: #000000;
+    color: #fff;
   }
   .dropdown-menu>li>a:hover {
-  	background-color: red;
-  	color: #fff;
+    background-color: red;
+    color: #fff;
   }
   .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
     color: #fff;
